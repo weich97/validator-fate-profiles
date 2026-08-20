@@ -115,7 +115,7 @@ def _check_pdf_lineage() -> int:
             "report/technical_note.tex",
             "report/refs.bib",
             "report/figures/attribution_gap.pdf",
-            "requirements/report-build-environment.txt",
+            "provenance/report-build-environment.md",
         },
     }
     for pdf, sources in dependencies.items():

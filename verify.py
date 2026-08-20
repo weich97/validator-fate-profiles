@@ -135,8 +135,8 @@ REQUIRED_FILES = {
     "evidence/external_case/command_ledger.csv",
     "evidence/external_case/family_stage_summary.csv",
     "evidence/external_case/mutation_catalog.json",
-    "evidence/external_case/replication_lint_requirements.txt",
-    "evidence/external_case/replication_test_requirements.txt",
+    "evidence/external_case/replication_lint_environment.lock",
+    "evidence/external_case/replication_test_environment.lock",
     "evidence/external_case/result_summary.json",
     "evidence/external_case/run_manifest.json",
     "evidence/external_case/source_and_environment_manifest.json",
@@ -149,7 +149,7 @@ REQUIRED_FILES = {
     "report/technical_note.tex",
     "report/refs.bib",
     "requirements/figure.txt",
-    "requirements/report-build-environment.txt",
+    "provenance/report-build-environment.md",
     "scripts/build_report.py",
     "scripts/render_gate_attribution.py",
     "verify.py",
@@ -199,7 +199,7 @@ def verify_pack_manifest() -> int:
     manifest = _read_json(PACK_MANIFEST)
     _require(manifest["schema_version"] == 2, "unsupported package-manifest schema")
     _require(manifest["name"] == "validator-fate-profiles", "package name drifted")
-    _require(manifest["version"] == "1.0.0", "package version drifted")
+    _require(manifest["version"] == "1.0.1", "package version drifted")
     entries = manifest["files"]
     _require(set(entries) >= REQUIRED_FILES, "package manifest is missing required files")
     observed = {path.relative_to(ROOT).as_posix() for path in ROOT.rglob("*") if _is_manifest_payload(path)}

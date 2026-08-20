@@ -80,7 +80,7 @@ python verify.py --build-report
 ```
 
 The recorded TeX/Biber environment is in
-`requirements/report-build-environment.txt`. Other compatible TeX
+`provenance/report-build-environment.md`. Other compatible TeX
 distributions should reproduce the content and layout, but are not expected to
 produce identical PDF bytes.
 

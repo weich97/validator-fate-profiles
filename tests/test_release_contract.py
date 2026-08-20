@@ -98,7 +98,7 @@ class EvidenceContractTests(unittest.TestCase):
         manifest = {
             "schema_version": 2,
             "name": "validator-fate-profiles",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "files": {"../outside.txt": {"size": 0, "sha256": "0" * 64, "purpose": "invalid"}},
         }
         with tempfile.TemporaryDirectory(prefix="validator_fate_path_test_") as temporary:

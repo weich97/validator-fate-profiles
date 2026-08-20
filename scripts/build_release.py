@@ -10,9 +10,10 @@ from pathlib import Path, PurePosixPath
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "PACK_MANIFEST.json"
 DIST = ROOT / "dist"
-ARCHIVE = DIST / "validator-fate-profiles-v1.0.0.zip"
+VERSION = "1.0.1"
+ARCHIVE = DIST / f"validator-fate-profiles-v{VERSION}.zip"
 CHECKSUMS = DIST / "SHA256SUMS.txt"
-PREFIX = "validator-fate-profiles-v1.0.0"
+PREFIX = f"validator-fate-profiles-v{VERSION}"
 ZIP_TIMESTAMP = (2026, 8, 20, 0, 0, 0)
 
 
@@ -22,7 +23,11 @@ def _sha256(path: Path) -> str:
 
 def main() -> int:
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    if manifest.get("schema_version") != 2 or manifest.get("name") != "validator-fate-profiles":
+    if (
+        manifest.get("schema_version") != 2
+        or manifest.get("name") != "validator-fate-profiles"
+        or manifest.get("version") != VERSION
+    ):
         raise RuntimeError("unsupported or mismatched package manifest")
     for relative, record in manifest["files"].items():
         archive_path = PurePosixPath(relative)

@@ -1,5 +1,9 @@
-# Recorded byte-identical technical-note build environment
-# This is a provenance record, not a pip requirements file.
+# Recorded technical-note build environment
+
+This is a provenance record for the byte-identical release build, not an
+installable dependency manifest.
+
+```text
 operating-system = Windows 10 (AMD64)
 python = 3.12.10
 tex-distribution = MiKTeX 25.12
@@ -10,3 +14,4 @@ pdflatex-executable-sha256 = de48c5ef651d2ded45e8d82188af22aaeebf0055d679b090609
 biber-executable-sha256 = e38abd420f3ad59f34b105392061ee6f099ed1d119e24f623625a5189a5f60f2
 source-date-epoch = 1787184000
 timezone = UTC
+```

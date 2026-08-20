@@ -12,7 +12,7 @@
     },
     ".github/ISSUE_TEMPLATE/reproducibility.yml": {
       "purpose": "continuous verification configuration",
-      "sha256": "c820fc62039606e0bae37473c10e85f08ff0df24cab76505e13b8ec64c64e4ea",
+      "sha256": "09533650e3c0876805e8147c5276affdb96e9d1edc4ca35cc57dfe5844bb5767",
       "size": 995
     },
     ".github/pull_request_template.md": {
@@ -32,12 +32,12 @@
     },
     "CHANGELOG.md": {
       "purpose": "repository documentation or metadata",
-      "sha256": "be22f0d7b3986794cce204d2afc4bc53604666d7b58d74a54d733a277b36f8d9",
-      "size": 321
+      "sha256": "bdbdc45a80e127a77bc73904b0fcf321f38c010dc9a5e223006db555c9bd5852",
+      "size": 562
     },
     "CITATION.cff": {
       "purpose": "repository documentation or metadata",
-      "sha256": "e5a9714714298e96289024b4143c0c11d37c99a6fa091ed20461196527c3481d",
+      "sha256": "bcc0eef72036649388897ca4db23a6be6c07964f05bd9cfc443f24fc20986204",
       "size": 824
     },
     "CONTRIBUTING.md": {
@@ -52,8 +52,8 @@
     },
     "README.md": {
       "purpose": "repository documentation or metadata",
-      "sha256": "e0317b08a67a918fa107728af79d4841349261e121ca25d62040393e143fd92b",
-      "size": 5532
+      "sha256": "c29fc57c6c28e83308fbdc5360c826c968d687911d613f446e24cc90bf9e59f9",
+      "size": 5529
     },
     "SECURITY.md": {
       "purpose": "repository documentation or metadata",
@@ -130,12 +130,12 @@
       "sha256": "03fe53670fd871aa05e6c069887ae09db162a466c4fcdba767267a4e28416e3b",
       "size": 28283
     },
-    "evidence/external_case/replication_lint_requirements.txt": {
+    "evidence/external_case/replication_lint_environment.lock": {
       "purpose": "external-package evidence or provenance",
       "sha256": "0f42b32fb5fc04fdbda951677c114df23fcb3f6b0d8875656db56b1ac9c8d29f",
       "size": 126
     },
-    "evidence/external_case/replication_test_requirements.txt": {
+    "evidence/external_case/replication_test_environment.lock": {
       "purpose": "external-package evidence or provenance",
       "sha256": "a6df1837e931ff9a93bb5a0171719cd0eb65cbb2e9f7b5e3bd2841a43072218e",
       "size": 138
@@ -170,9 +170,14 @@
       "sha256": "d7eb2dbd444d014ca93a884a5ebb41d8afd4bf580d350febf3b1324ad21b555f",
       "size": 60793
     },
+    "provenance/report-build-environment.md": {
+      "purpose": "recorded environment for byte-identical technical-note reconstruction",
+      "sha256": "e538ed9e0180920c7e4b5709099a41c2e0f258595299e9f545d824ba43409940",
+      "size": 549
+    },
     "pyproject.toml": {
       "purpose": "repository documentation or metadata",
-      "sha256": "9a39f924f18e5389a4577dec254072fa7c75cedd9553f204b43a7c45db28c490",
+      "sha256": "8e782696d10a4bb7f7cfb424dfdf50a9d494be6d615507d2100ec3907dda550d",
       "size": 886
     },
     "report/figures/attribution_gap.pdf": {
@@ -202,13 +207,8 @@
     },
     "requirements/figure.txt": {
       "purpose": "pinned environment for figure reconstruction",
-      "sha256": "9908c10a8ab7f45c81dbd80b9e125239dc4b5100f2e9925ab022e8dfc60b8a1a",
+      "sha256": "af209e52f3597a54faeec45395990b7206a5c2800f2638501b19b0285a602ac6",
       "size": 206
-    },
-    "requirements/report-build-environment.txt": {
-      "purpose": "recorded environment for byte-identical technical-note reconstruction",
-      "sha256": "0180b7eec6cae0e067041bd3c737be61a823533e81dabc2319bde3283ebb32da",
-      "size": 504
     },
     "scripts/__init__.py": {
       "purpose": "artifact build, verification, or release tooling",
@@ -217,13 +217,13 @@
     },
     "scripts/build_manifest.py": {
       "purpose": "artifact build, verification, or release tooling",
-      "sha256": "b6738812acdb31e4de6714a09cd51d340a7efc8615584f6a4d8ab021ef90f8c8",
-      "size": 3107
+      "sha256": "26867fd1f49c7de123ca9ad796cdb970b4b10a2b8c9fc141c0b86bb44f39f270",
+      "size": 3104
     },
     "scripts/build_release.py": {
       "purpose": "artifact build, verification, or release tooling",
-      "sha256": "b162c852ee86f3501b90f0397b857e60568d8a8af30f066b5fc4bd163e1386d0",
-      "size": 2647
+      "sha256": "b8b3dcf437264aadcf3b919f1b2c433883b64947de51bb8793a106d4c54405cc",
+      "size": 2745
     },
     "scripts/build_report.py": {
       "purpose": "technical-note build script",
@@ -232,8 +232,8 @@
     },
     "scripts/check_release_hygiene.py": {
       "purpose": "artifact build, verification, or release tooling",
-      "sha256": "20af5ec5f5e11766dca404b17d8387d17cede7c070437e972518b12efb7eab8d",
-      "size": 5227
+      "sha256": "bbb22c1e3dd7a63149fa6307fda4c5d8a351a6c8d41990722648a20e164d6f8a",
+      "size": 5224
     },
     "scripts/render_gate_attribution.py": {
       "purpose": "source code for the released PDF and PNG figure",
@@ -247,16 +247,16 @@
     },
     "tests/test_release_contract.py": {
       "purpose": "repository documentation or metadata",
-      "sha256": "32eb562c694b5ebae182ca5095b7eacd7cb1ef98116d97b2bae660b1928457a5",
+      "sha256": "6a8966ab5ed90b4f89525f67474c39c3ee26921e5e4ed793c8a66da6c42c6ea8",
       "size": 5399
     },
     "verify.py": {
       "purpose": "artifact build, verification, or release tooling",
-      "sha256": "8360623e970d3f9e1003b8b04bd7c4eeb659f3cd2f9a9b4b2ecd54db5bd98db3",
-      "size": 34996
+      "sha256": "d6fd81e04e3f2fc8c1ae4243425c2b2d66513c0a427319130282d2300ddaeb64",
+      "size": 34993
     }
   },
   "name": "validator-fate-profiles",
   "schema_version": 2,
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

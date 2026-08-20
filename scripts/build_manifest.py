@@ -47,7 +47,7 @@ def _purpose(relative: str) -> str:
         return "artifact build, verification, or release tooling"
     if relative == "requirements/figure.txt":
         return "pinned environment for figure reconstruction"
-    if relative == "requirements/report-build-environment.txt":
+    if relative == "provenance/report-build-environment.md":
         return "recorded environment for byte-identical technical-note reconstruction"
     if relative.startswith(".github/"):
         return "continuous verification configuration"
@@ -73,7 +73,7 @@ def main() -> int:
     manifest = {
         "schema_version": 2,
         "name": "validator-fate-profiles",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "files": entries,
     }
     OUTPUT.write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
