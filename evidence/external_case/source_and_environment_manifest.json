@@ -1,0 +1,110 @@
+{
+  "design": {
+    "clean_collected_tests": 6405,
+    "complete_single_stage_bypass_matrix": true,
+    "control_probes": 2,
+    "directed_calibration_mutants": 16,
+    "exception_outcome_available": false,
+    "mutation_target": "idna/core.py",
+    "primary_family_quotas": {
+      "annotation_atom": 4,
+      "layout_spacing": 4,
+      "parameter_reference": 4,
+      "predicate_replacement": 6,
+      "scalar_boundary": 6
+    },
+    "primary_mutants": 24,
+    "primary_stratum": "operator_stratified",
+    "replays": 2,
+    "stages": [
+      "ruff_format",
+      "ruff_lint",
+      "mypy",
+      "pytest"
+    ],
+    "total_mutants": 40
+  },
+  "environment": {
+    "lint": {
+      "executables": {
+        "mypy": {
+          "sha256": "01a54896d22273cf18a372ec57062f80646fcac4a1696df76abad5228c619f09"
+        },
+        "python": {
+          "sha256": "0b471133e110cfb53a061cad528ce8e517d7b9ac41a0a396c39ad795a487fc14"
+        },
+        "ruff": {
+          "sha256": "1c6f40238bebe7268117ef5c35840e9fbb0cea51ede7d9e3c2bf6f8d10414979"
+        }
+      },
+      "locked_packages": [
+        "ast_serialize==0.4.0",
+        "librt==0.11.0",
+        "mypy==2.1.0",
+        "mypy_extensions==1.1.0",
+        "pathspec==1.1.1",
+        "ruff==0.15.13",
+        "typing_extensions==4.15.0"
+      ],
+      "versions": {
+        "mypy": "2.1.0",
+        "python": "3.12.10",
+        "ruff": "0.15.13"
+      }
+    },
+    "platform": {
+      "machine": "AMD64",
+      "python_implementation": "CPython",
+      "release": "10",
+      "system": "Windows"
+    },
+    "test": {
+      "executables": {
+        "python": {
+          "sha256": "0b471133e110cfb53a061cad528ce8e517d7b9ac41a0a396c39ad795a487fc14"
+        }
+      },
+      "locked_packages": [
+        "colorama==0.4.6",
+        "exceptiongroup==1.3.1",
+        "iniconfig==2.1.0",
+        "packaging==26.2",
+        "pluggy==1.5.0",
+        "pytest==8.3.5",
+        "tomli==2.4.1",
+        "typing_extensions==4.13.2"
+      ],
+      "versions": {
+        "pytest": "8.3.5",
+        "python": "3.12.10"
+      }
+    }
+  },
+  "schema_version": 4,
+  "source": {
+    "license": "BSD-3-Clause",
+    "name": "idna",
+    "release_commit": "f39ea903ba49eb5a0b2c6723c9a929b41ed4a0f1",
+    "release_tag": "v3.18",
+    "release_tag_object": "28355913c58808559ff5f2f9f43017a8c7735fad",
+    "repository": "https://github.com/kjd/idna",
+    "sdist_sha256": "ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848",
+    "sdist_url": "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz",
+    "source_and_test_tree_sha256": "a5f549e258954817efc84394dfa0f2007730c8297897750082a84cc2c7d088d7",
+    "upstream_file_sha256": {
+      "LICENSE.md": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "idna/core.py": "49f3abd713b73e8134443631edb31c8809e38b28c93db3f0ffddc007921460ec",
+      "pyproject.toml": "69e676f5ad8501960d501be13fad543ba6234b56b5933fd6aaf000b3093688b1",
+      "tests/test_idna.py": "4a82631a4f527ae78e2d2b29a542dd731733c8e7e9c3e3ea2c57ac86b7d380d8",
+      "tests/test_idna_cli.py": "a011911db8bb6477b0a419a277701e8e0460b34cbfdfb0451e51c28fe1bfc251",
+      "tests/test_idna_codec.py": "61c45aaf82b8cf44676c9086a57cd83912f5bc57447e732c91fe920f71f5b445",
+      "tests/test_idna_compat.py": "165e7cf2c6133e9ad1c81c64df1e407d88728cf89d44f7e22db8bd0b98b0517d",
+      "tests/test_idna_uts46.py": "c7de7a6115389156740f480bff6221716e80ab36e8217f16401bddf18e5478c4",
+      "tests/test_intranges.py": "0504b96daa3f9bd9805effe7ffa685c31f07b8efd2bc863ca4c02592ed502f57"
+    },
+    "upstream_lint_lock_blob": "efdde74b42f8561a26f6bc389bb6fd559bdef932",
+    "upstream_test_lock_blob": "60f2804f693731ba04af9329e1ec97debb1a12e2",
+    "upstream_workflow_blob": "8395cfa0473b4818938e7077131d8edafbe6d5f4",
+    "version": "3.18"
+  }
+}

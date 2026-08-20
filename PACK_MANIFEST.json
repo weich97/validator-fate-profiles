@@ -1,0 +1,262 @@
+{
+  "files": {
+    ".gitattributes": {
+      "purpose": "repository documentation or metadata",
+      "sha256": "aaa6320ae25027bae73652a41ea80b4dcd3d6cb62cba08673e78d1b9cf38d980",
+      "size": 238
+    },
+    ".github/ISSUE_TEMPLATE/config.yml": {
+      "purpose": "continuous verification configuration",
+      "sha256": "f1353c5864e3b722496c340b3efab959d9dbea0cb016ff915b21b91efa53b253",
+      "size": 222
+    },
+    ".github/ISSUE_TEMPLATE/reproducibility.yml": {
+      "purpose": "continuous verification configuration",
+      "sha256": "c820fc62039606e0bae37473c10e85f08ff0df24cab76505e13b8ec64c64e4ea",
+      "size": 995
+    },
+    ".github/pull_request_template.md": {
+      "purpose": "continuous verification configuration",
+      "sha256": "0cc897fda2fd111e2be58f8ce1a27df0a7b09a22250efd269eabc4088d968867",
+      "size": 500
+    },
+    ".github/workflows/verify.yml": {
+      "purpose": "continuous verification configuration",
+      "sha256": "3ebb8f8a15905cf08b5ac734777b7482e6c481efa68d33bbef81aabc875f143b",
+      "size": 1693
+    },
+    ".gitignore": {
+      "purpose": "repository documentation or metadata",
+      "sha256": "bcbef8597138a904b2cc2f1ef053fdb48be3ee103292b547ae3e2cf893a579c7",
+      "size": 235
+    },
+    "CHANGELOG.md": {
+      "purpose": "repository documentation or metadata",
+      "sha256": "be22f0d7b3986794cce204d2afc4bc53604666d7b58d74a54d733a277b36f8d9",
+      "size": 321
+    },
+    "CITATION.cff": {
+      "purpose": "repository documentation or metadata",
+      "sha256": "e5a9714714298e96289024b4143c0c11d37c99a6fa091ed20461196527c3481d",
+      "size": 824
+    },
+    "CONTRIBUTING.md": {
+      "purpose": "repository documentation or metadata",
+      "sha256": "233a0f8eaab2f48603999d978a053f4c82206fe41243555de164ab833fc9cefd",
+      "size": 722
+    },
+    "LICENSE": {
+      "purpose": "license or third-party notice",
+      "sha256": "78ddf7abe8b396a7099935f91bb80d7500320b3638164484099034d4f9bfe88d",
+      "size": 1069
+    },
+    "README.md": {
+      "purpose": "repository documentation or metadata",
+      "sha256": "e0317b08a67a918fa107728af79d4841349261e121ca25d62040393e143fd92b",
+      "size": 5532
+    },
+    "SECURITY.md": {
+      "purpose": "repository documentation or metadata",
+      "sha256": "4431d3e762b93c3b780af824a476ddd01e04f9b267755804261f46fbf3bb0e4d",
+      "size": 701
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "purpose": "license or third-party notice",
+      "sha256": "2513a7df6841c3b086cf65ea9b73acb19454e807fa0a3a6451b5dbf28d396c87",
+      "size": 567
+    },
+    "evidence/artifact_case/e1_interception.csv": {
+      "purpose": "pseudonymized artifact-case evidence",
+      "sha256": "0674ac47212e0b1333a5d7af09e4f8ab83189de1bab93a91898a8e852b995a1f",
+      "size": 14061
+    },
+    "evidence/artifact_case/e1_leave_one_out.csv": {
+      "purpose": "pseudonymized artifact-case evidence",
+      "sha256": "9a6c115d7798d64cb227a911b6886eaaff13bdf5a8b18e7661c48fc75f0b5ada",
+      "size": 486
+    },
+    "evidence/artifact_case/e1_leave_one_out_ledger.csv": {
+      "purpose": "pseudonymized artifact-case evidence",
+      "sha256": "e3a658e032de6259edd9287df1b99e526691968227ee9a9bad4b7dd03e27b6f6",
+      "size": 181143
+    },
+    "evidence/artifact_case/e1_source_matrix.csv": {
+      "purpose": "pseudonymized artifact-case evidence",
+      "sha256": "60942b7177c4a32641ba81a16f6b1bda56114bd644409f7e9a9cd786d919f2d2",
+      "size": 732
+    },
+    "evidence/external_case/AMENDMENT_2026-08-18.md": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "651baa6c614c33be21536c4c9b1718e45daadbf4c3ecc8f93e0ac94d49fd67f5",
+      "size": 2219
+    },
+    "evidence/external_case/FROZEN_PLAN.md": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "8d32c7d7947c477b847ecdc625377db9f189fb6f7060b188a57218e29c9c5d4a",
+      "size": 7312
+    },
+    "evidence/external_case/IDNA_LICENSE.md": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "size": 1541
+    },
+    "evidence/external_case/REPLICATION_DONE.md": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "ba0771c1669c7227ed8835232596b44a5382cc7b3c322ec390882134eda903ea",
+      "size": 296
+    },
+    "evidence/external_case/calibration_matrix.csv": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "a7f9d03c6636cf627612da6ed931a02f2828d88eae7bea03ed90af1e98742121",
+      "size": 118
+    },
+    "evidence/external_case/clean_compatibility.json": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "b3d3d90f837d459eeb82063b56c11ff2d004be75f99f862f62d548790fb08a02",
+      "size": 3250
+    },
+    "evidence/external_case/command_ledger.csv": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "c64d1033165c6115fb7bfdca761056d2bfea989ea5d443341beb7284fb1c15ef",
+      "size": 1432369
+    },
+    "evidence/external_case/family_stage_summary.csv": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "3b593ca6308c63390e1f8198f00090bec18e65c3de186286718a09c40b8c50df",
+      "size": 938
+    },
+    "evidence/external_case/mutation_catalog.json": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "03fe53670fd871aa05e6c069887ae09db162a466c4fcdba767267a4e28416e3b",
+      "size": 28283
+    },
+    "evidence/external_case/replication_lint_requirements.txt": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "0f42b32fb5fc04fdbda951677c114df23fcb3f6b0d8875656db56b1ac9c8d29f",
+      "size": 126
+    },
+    "evidence/external_case/replication_test_requirements.txt": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "a6df1837e931ff9a93bb5a0171719cd0eb65cbb2e9f7b5e3bd2841a43072218e",
+      "size": 138
+    },
+    "evidence/external_case/result_summary.json": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "545a16bce26663bb9e59431bd038248695d6625816dae01ccc8ddb4068ead396",
+      "size": 7350
+    },
+    "evidence/external_case/run_manifest.json": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "4234930f593593bcaa3f0d79ff258e3ce4765774794726b26bd75d983c750678",
+      "size": 1352
+    },
+    "evidence/external_case/source_and_environment_manifest.json": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "fafd7e3dda277e10fa990f0e001cc60bf4fd78d920c815d3ab060a51f3710048",
+      "size": 3869
+    },
+    "evidence/external_case/stage_summary.csv": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "5b8368343f8c66352af18f8ed56d5b8919ea4c288287b472b782fd82c2d487f8",
+      "size": 143
+    },
+    "evidence/external_case/transition_matrix.csv": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "3925deb19e02835938b6c0d804791684f66ca8981b93cc49cd4384acd0e3f8a4",
+      "size": 103
+    },
+    "evidence/external_case/workflow_ledger.csv": {
+      "purpose": "external-package evidence or provenance",
+      "sha256": "d7eb2dbd444d014ca93a884a5ebb41d8afd4bf580d350febf3b1324ad21b555f",
+      "size": 60793
+    },
+    "pyproject.toml": {
+      "purpose": "repository documentation or metadata",
+      "sha256": "9a39f924f18e5389a4577dec254072fa7c75cedd9553f204b43a7c45db28c490",
+      "size": 886
+    },
+    "report/figures/attribution_gap.pdf": {
+      "purpose": "generated figure released with the technical note",
+      "sha256": "760f2771e6c5139c4b7b524e78acf985d81523e43fbe97beb26ca0330809e28f",
+      "size": 29499
+    },
+    "report/figures/attribution_gap.png": {
+      "purpose": "generated figure released with the technical note",
+      "sha256": "27ff96f59ebb2678ac50e2268d10c0635576b0ba5638f166d78cba0e8ed24fce",
+      "size": 132908
+    },
+    "report/refs.bib": {
+      "purpose": "open technical note source or compiled output",
+      "sha256": "d9b5693710bc256f78e752ade6db3fb79b8cb107f6b604bd9e28b4fcc0be3b9e",
+      "size": 3520
+    },
+    "report/technical_note.pdf": {
+      "purpose": "open technical note source or compiled output",
+      "sha256": "c368d3b5cd7e17ee8ed15a19cd29536d4c9f1bd1688c6b55208ae96613664f87",
+      "size": 319695
+    },
+    "report/technical_note.tex": {
+      "purpose": "open technical note source or compiled output",
+      "sha256": "a0b80e2c123faedd5756387513e18f4fb9151c7d4d2f35e174dcd115517f2c07",
+      "size": 12044
+    },
+    "requirements/figure.txt": {
+      "purpose": "pinned environment for figure reconstruction",
+      "sha256": "9908c10a8ab7f45c81dbd80b9e125239dc4b5100f2e9925ab022e8dfc60b8a1a",
+      "size": 206
+    },
+    "requirements/report-build-environment.txt": {
+      "purpose": "recorded environment for byte-identical technical-note reconstruction",
+      "sha256": "0180b7eec6cae0e067041bd3c737be61a823533e81dabc2319bde3283ebb32da",
+      "size": 504
+    },
+    "scripts/__init__.py": {
+      "purpose": "artifact build, verification, or release tooling",
+      "sha256": "847e6a6d1c77f0267887b3623ea1c71fe62a8449f38c9eb96747da9402e120e2",
+      "size": 67
+    },
+    "scripts/build_manifest.py": {
+      "purpose": "artifact build, verification, or release tooling",
+      "sha256": "b6738812acdb31e4de6714a09cd51d340a7efc8615584f6a4d8ab021ef90f8c8",
+      "size": 3107
+    },
+    "scripts/build_release.py": {
+      "purpose": "artifact build, verification, or release tooling",
+      "sha256": "b162c852ee86f3501b90f0397b857e60568d8a8af30f066b5fc4bd163e1386d0",
+      "size": 2647
+    },
+    "scripts/build_report.py": {
+      "purpose": "technical-note build script",
+      "sha256": "8f0ba7500c4ced270337ffbe5f4114cd45b37459bdb7e499180e1723e116bc4d",
+      "size": 2036
+    },
+    "scripts/check_release_hygiene.py": {
+      "purpose": "artifact build, verification, or release tooling",
+      "sha256": "20af5ec5f5e11766dca404b17d8387d17cede7c070437e972518b12efb7eab8d",
+      "size": 5227
+    },
+    "scripts/render_gate_attribution.py": {
+      "purpose": "source code for the released PDF and PNG figure",
+      "sha256": "8da41832d6e5d4c4729a5147e135848276e76e50e0f37a79af3eadaae6dd2b65",
+      "size": 13564
+    },
+    "tests/__init__.py": {
+      "purpose": "repository documentation or metadata",
+      "sha256": "bb714796045a9df23d6cf084e9b5807ef20666884a4a8ac1314a3440ba142fad",
+      "size": 30
+    },
+    "tests/test_release_contract.py": {
+      "purpose": "repository documentation or metadata",
+      "sha256": "32eb562c694b5ebae182ca5095b7eacd7cb1ef98116d97b2bae660b1928457a5",
+      "size": 5399
+    },
+    "verify.py": {
+      "purpose": "artifact build, verification, or release tooling",
+      "sha256": "8360623e970d3f9e1003b8b04bd7c4eeb659f3cd2f9a9b4b2ecd54db5bd98db3",
+      "size": 34996
+    }
+  },
+  "name": "validator-fate-profiles",
+  "schema_version": 2,
+  "version": "1.0.0"
+}

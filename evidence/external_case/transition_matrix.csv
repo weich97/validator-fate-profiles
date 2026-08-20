@@ -1,0 +1,5 @@
+removed_stage,destination,count
+mypy,accepted,4
+mypy,pytest,2
+pytest,accepted,9
+ruff_format,accepted,4

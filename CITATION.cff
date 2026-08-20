@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this evidence or software, please cite this release."
+title: "Validator Fate Profiles: Admission and Downstream Fate in Ordered Validators"
+type: software
+authors:
+  - family-names: Xue
+    given-names: Weicheng
+repository-code: "https://github.com/weich97/validator-fate-profiles"
+url: "https://github.com/weich97/validator-fate-profiles"
+license: MIT
+version: "1.0.0"
+date-released: 2026-08-20
+keywords:
+  - software testing
+  - fault injection
+  - mutation testing
+  - validator pipelines
+  - reproducible research
+preferred-citation:
+  type: report
+  title: "What First-Failure Counts Miss: Admission and Downstream Fate in Ordered Validators"
+  authors:
+    - family-names: Xue
+      given-names: Weicheng
+  year: 2026
+  url: "https://github.com/weich97/validator-fate-profiles"

@@ -1,0 +1,5 @@
+stage,first_hits,newly_accepted,later_rejected,downstream_exceptions
+ruff_format,4,4,0,N/A
+ruff_lint,0,0,0,N/A
+mypy,6,4,2,N/A
+pytest,9,9,0,N/A

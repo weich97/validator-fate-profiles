@@ -1,0 +1,6 @@
+layer,label,first_intercepts_when_present,escapes_with_layer,escapes_without_layer,newly_escaping,absorbed_by_later_layer,downstream_crashes,load_bearing
+schema_validation,Schema validation,261,21,21,0,250,11,yes
+single_artifact_validator,Single-artifact validator,20,21,21,0,20,0,no
+approval_hash_binding,Approval/hash binding,36,21,21,0,36,0,no
+cross_artifact_preflight,Cross-artifact preflight,18,21,39,18,0,0,yes
+orchestrator_revalidation,Lifecycle/journal checks,9,21,30,9,0,0,yes

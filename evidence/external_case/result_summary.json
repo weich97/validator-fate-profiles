@@ -1,0 +1,276 @@
+{
+  "baseline_by_stratum": {
+    "directed": {
+      "accepted": 0,
+      "mypy": 4,
+      "pytest": 4,
+      "ruff_format": 4,
+      "ruff_lint": 4
+    },
+    "primary": {
+      "accepted": 5,
+      "mypy": 6,
+      "pytest": 9,
+      "ruff_format": 4,
+      "ruff_lint": 0
+    }
+  },
+  "directed_calibration": [
+    {
+      "count": 4,
+      "intended_stage": "mypy",
+      "observed_destination": "mypy"
+    },
+    {
+      "count": 4,
+      "intended_stage": "pytest",
+      "observed_destination": "pytest"
+    },
+    {
+      "count": 4,
+      "intended_stage": "ruff_format",
+      "observed_destination": "ruff_format"
+    },
+    {
+      "count": 4,
+      "intended_stage": "ruff_lint",
+      "observed_destination": "ruff_lint"
+    }
+  ],
+  "exception_outcome": "not available; this chain has no unguarded consumer",
+  "observed_conditions": {
+    "at_least_one_stage_has_admission_effect": true,
+    "at_least_two_stages_have_first_hits": true,
+    "nonterminal_stage_has_later_rejection": true
+  },
+  "primary_family_breakdown": [
+    {
+      "baseline_count": 4,
+      "baseline_destination": "ruff_format",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 4,
+      "operator_family": "layout_spacing"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "ruff_lint",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "layout_spacing"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "mypy",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "layout_spacing"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "pytest",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "layout_spacing"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "accepted",
+      "later_rejected_after_bypass": "N/A",
+      "newly_accepted_after_bypass": "N/A",
+      "operator_family": "layout_spacing"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "ruff_format",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "parameter_reference"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "ruff_lint",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "parameter_reference"
+    },
+    {
+      "baseline_count": 2,
+      "baseline_destination": "mypy",
+      "later_rejected_after_bypass": 2,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "parameter_reference"
+    },
+    {
+      "baseline_count": 2,
+      "baseline_destination": "pytest",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 2,
+      "operator_family": "parameter_reference"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "accepted",
+      "later_rejected_after_bypass": "N/A",
+      "newly_accepted_after_bypass": "N/A",
+      "operator_family": "parameter_reference"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "ruff_format",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "annotation_atom"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "ruff_lint",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "annotation_atom"
+    },
+    {
+      "baseline_count": 4,
+      "baseline_destination": "mypy",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 4,
+      "operator_family": "annotation_atom"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "pytest",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "annotation_atom"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "accepted",
+      "later_rejected_after_bypass": "N/A",
+      "newly_accepted_after_bypass": "N/A",
+      "operator_family": "annotation_atom"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "ruff_format",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "predicate_replacement"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "ruff_lint",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "predicate_replacement"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "mypy",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "predicate_replacement"
+    },
+    {
+      "baseline_count": 3,
+      "baseline_destination": "pytest",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 3,
+      "operator_family": "predicate_replacement"
+    },
+    {
+      "baseline_count": 3,
+      "baseline_destination": "accepted",
+      "later_rejected_after_bypass": "N/A",
+      "newly_accepted_after_bypass": "N/A",
+      "operator_family": "predicate_replacement"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "ruff_format",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "scalar_boundary"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "ruff_lint",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "scalar_boundary"
+    },
+    {
+      "baseline_count": 0,
+      "baseline_destination": "mypy",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 0,
+      "operator_family": "scalar_boundary"
+    },
+    {
+      "baseline_count": 4,
+      "baseline_destination": "pytest",
+      "later_rejected_after_bypass": 0,
+      "newly_accepted_after_bypass": 4,
+      "operator_family": "scalar_boundary"
+    },
+    {
+      "baseline_count": 2,
+      "baseline_destination": "accepted",
+      "later_rejected_after_bypass": "N/A",
+      "newly_accepted_after_bypass": "N/A",
+      "operator_family": "scalar_boundary"
+    }
+  ],
+  "primary_stage_summary": [
+    {
+      "downstream_exceptions": "N/A",
+      "first_hits": 4,
+      "later_rejected": 0,
+      "newly_accepted": 4,
+      "stage": "ruff_format"
+    },
+    {
+      "downstream_exceptions": "N/A",
+      "first_hits": 0,
+      "later_rejected": 0,
+      "newly_accepted": 0,
+      "stage": "ruff_lint"
+    },
+    {
+      "downstream_exceptions": "N/A",
+      "first_hits": 6,
+      "later_rejected": 2,
+      "newly_accepted": 4,
+      "stage": "mypy"
+    },
+    {
+      "downstream_exceptions": "N/A",
+      "first_hits": 9,
+      "later_rejected": 0,
+      "newly_accepted": 9,
+      "stage": "pytest"
+    }
+  ],
+  "primary_stratum": "operator_stratified",
+  "primary_transitions": [
+    {
+      "count": 4,
+      "destination": "accepted",
+      "removed_stage": "mypy"
+    },
+    {
+      "count": 2,
+      "destination": "pytest",
+      "removed_stage": "mypy"
+    },
+    {
+      "count": 9,
+      "destination": "accepted",
+      "removed_stage": "pytest"
+    },
+    {
+      "count": 4,
+      "destination": "accepted",
+      "removed_stage": "ruff_format"
+    }
+  ]
+}
